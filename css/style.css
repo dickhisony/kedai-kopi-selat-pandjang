@@ -1,6 +1,6 @@
 :root {
-  --primary: #b6895b;
-  --bg: #010101;
+  --primary: #a71d31;
+  --bg: #3f0d12;
 }
 
 * {
@@ -179,6 +179,7 @@ body {
 
 .about .row .about-img img {
   width: 100%;
+  border-radius: 20%;
 }
 
 .about .row .content {
@@ -240,7 +241,7 @@ body {
 .contact .row {
   display: flex;
   margin-top: 2rem;
-  background-color: #222;
+  background-color: rgba(1, 1, 1, 0.5);
 }
 
 .contact .row .map {
